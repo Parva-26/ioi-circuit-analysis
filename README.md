@@ -28,7 +28,7 @@ This repo:
 
 - Per-head DLA on the base template
   <p>
-  <img src="results/dla-heatmap.png" width="60%" />
+  <img src="results/dla_heatmap.png" width="60%" />
   </p>
   
 - `dla_base_vs_distractor.png` — side-by-side DLA comparison
