@@ -40,6 +40,9 @@ This repo:
   <p>
   <img src="results/attn_L9H9.png" width="60%" />
   </p>
+  <p>
+  <img src="results/attn_L9H6.png" width="60%" />
+  </p>
   
 - `path_patching_base.csv` : Causal drop per head, base template
 - `circuit_stability_results.csv` : Causal drop per head, base vs. distractor
