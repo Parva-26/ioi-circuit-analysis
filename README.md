@@ -50,6 +50,9 @@ This repo:
 - `path_patching_base.csv` : Causal drop per head, base template
 - `circuit_stability_results.csv` : Causal drop per head, base vs. distractor
 - `circuit_stability_barplot.png` : Visual comparison of circuit stability
+  <p>
+  <img src="results/circuit_stability_barplot.png" width="60%" />
+  </p>
 
 Numeric findings (Spearman correlation, % logit-diff retained under distractor) are filled in by running the notebook — see the Summary cell at the end of the notebook.
 
