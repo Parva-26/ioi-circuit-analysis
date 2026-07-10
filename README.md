@@ -26,8 +26,11 @@ This repo:
 
 ## Results
 
-See `results/` for generated artifacts:
-- `dla_heatmap.png` — per-head DLA on the base template
+- Per-head DLA on the base template
+  <p>
+  <img src="results/dla-heatmap.png" width="60%" />
+  </p>
+  
 - `dla_base_vs_distractor.png` — side-by-side DLA comparison
 - `attn_L*H*.png` — attention pattern visualizations for top candidate heads
 - `path_patching_base.csv` — causal drop per head, base template
