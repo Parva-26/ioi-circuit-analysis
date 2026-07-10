@@ -37,6 +37,7 @@ This repo:
   </p>
   
 - `attn_L*H*.png` : Attention pattern visualizations for top candidate heads
+  ###L9H9
   <p>
   <img src="results/attn_L9H9.png" width="60%" />
   </p>
