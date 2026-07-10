@@ -44,7 +44,7 @@ pip install -r requirements.txt
 
 Or in Google Colab, uncomment the first `!pip install` line in the notebook.
 
-Runs on CPU (slow) or GPU (recommended — a free Colab T4 is enough; GPT-2 small is a 124M-param model).
+Runs on CPU (slow) or GPU (recommended — a free Colab T4 is enough).
 
 ## Usage
 
