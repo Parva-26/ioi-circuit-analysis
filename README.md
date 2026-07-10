@@ -26,16 +26,16 @@ This repo:
 
 ## Results
 
-- Per-head DLA on the base template
+- `dla_heatmap.png` : Per-head DLA on the base template
   <p>
   <img src="results/dla_heatmap.png" width="60%" />
   </p>
   
-- `dla_base_vs_distractor.png` — side-by-side DLA comparison
-- `attn_L*H*.png` — attention pattern visualizations for top candidate heads
-- `path_patching_base.csv` — causal drop per head, base template
-- `circuit_stability_results.csv` — causal drop per head, base vs. distractor
-- `circuit_stability_barplot.png` — visual comparison of circuit stability
+- `dla_base_vs_distractor.png` : Side-by-side DLA comparison
+- `attn_L*H*.png` : Attention pattern visualizations for top candidate heads
+- `path_patching_base.csv` : Causal drop per head, base template
+- `circuit_stability_results.csv` : Causal drop per head, base vs. distractor
+- `circuit_stability_barplot.png` : Visual comparison of circuit stability
 
 Numeric findings (Spearman correlation, % logit-diff retained under distractor) are filled in by running the notebook — see the Summary cell at the end of the notebook.
 
