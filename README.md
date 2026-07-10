@@ -32,6 +32,10 @@ This repo:
   </p>
   
 - `dla_base_vs_distractor.png` : Side-by-side DLA comparison
+  <p>
+  <img src="results/dla_base_vs_distractor.png" width="60%" />
+  </p>
+  
 - `attn_L*H*.png` : Attention pattern visualizations for top candidate heads
 - `path_patching_base.csv` : Causal drop per head, base template
 - `circuit_stability_results.csv` : Causal drop per head, base vs. distractor
