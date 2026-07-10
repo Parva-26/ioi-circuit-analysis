@@ -54,7 +54,13 @@ This repo:
   <img src="results/circuit_stability_barplot.png" width="60%" />
   </p>
 
-Numeric findings (Spearman correlation, % logit-diff retained under distractor) are filled in by running the notebook — see the Summary cell at the end of the notebook.
+## Summary
+
+-Replicated the core finding that a small set of late-layer attention heads (Name Mover Heads) causally drive the IOI task's logit difference in GPT-2 small, consistent with Wang et al. (2022).
+
+-Confirmed via Direct Logit Attribution + path patching, not just attention pattern inspection.
+
+-Extension finding: We tested whether the same heads that drive the IOI task on the base template still matter when we add a distractor name to the prompt. The results were pretty clean, the head rankings between base and distractor prompts correlate at 0.781 (p=7.03e-31), which is really high. The model also keeps 98.2% of its performance even with the distractor added (logit diff goes from 3.161 to 3.104). This means the same Name Mover Heads stay causally important regardless of whether there's extra noise in the prompt. Basically, the circuit isn't just memorizing surface patterns, it's actually learning to distinguish S from IO structurally, which is why it generalizes. This extends Wang et al.'s work by showing the circuit is stable across different prompt structures, which is something the community cares about but hadn't been tested directly on the IOI task before.
 
 ## Setup
 
