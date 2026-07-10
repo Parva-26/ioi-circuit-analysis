@@ -37,6 +37,10 @@ This repo:
   </p>
   
 - `attn_L*H*.png` : Attention pattern visualizations for top candidate heads
+  <p>
+  <img src="results/attn_L9H9.png" width="60%" />
+  </p>
+  
 - `path_patching_base.csv` : Causal drop per head, base template
 - `circuit_stability_results.csv` : Causal drop per head, base vs. distractor
 - `circuit_stability_barplot.png` : Visual comparison of circuit stability
