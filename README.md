@@ -56,7 +56,7 @@ Open `notebooks/ioi_circuit_analysis.ipynb` and run all cells top to bottom. Eac
 ioi-circuit-analysis/
 ├── notebooks/
 │   └── ioi_circuit_analysis.ipynb   # full analysis pipeline
-├── results/                         # generated plots + CSVs (populated on run)
+├── results/                         # generated plots + CSVs
 ├── requirements.txt
 └── README.md
 ```
